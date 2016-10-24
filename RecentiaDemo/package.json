@@ -1,6 +1,9 @@
 {
   "name": "Angular2Spa",
   "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  },
   "dependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
