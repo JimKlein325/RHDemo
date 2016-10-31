@@ -26,6 +26,20 @@ namespace RecentiaDemo.Controllers
             });
         }
 
+        public IActionResult DoseResponse(int patientID)
+        {
+            try
+            {
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                //Use logger here.
+            }
+
+            return BadRequest("Failed to get data.");
+        }
+
         public class WeatherForecast
         {
             public string DateFormatted { get; set; }
